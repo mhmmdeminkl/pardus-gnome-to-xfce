@@ -8,7 +8,7 @@ Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan
 git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
 ```
 ```
-cd /pardusgnometemizleyici
+cd /pardus-gnome-temizleyici
 ```
 ```
 chmod +x temizlik.sh
