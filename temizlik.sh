@@ -22,6 +22,7 @@ if confirm; then
     # Place your code here to execute when user confirms
 else
     echo "İşlem iptal edildi. Çıkış yapılıyor. Tekrar görüşmek üzere..."
+    exit
     # Place your code here to execute when user denies
 fi
 
