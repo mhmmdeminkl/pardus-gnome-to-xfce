@@ -12,6 +12,7 @@ gerekmektedir.
 ```
 git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
 cd pardus-gnome-temizleyici
+chmod +x temizlik.sh
 ```
 
 Kurulum işlemi artık bitmiştir.
@@ -20,7 +21,7 @@ Kurulum işlemi artık bitmiştir.
 Şimdi basitçe aşağıdaki komutla çalıştırabilirsiniz.
 
 ```
-sh temizlik.sh
+bash temizlik.sh
 ```
 
 Script çalıştığında gerekli uyarıları yapmaktadır. Sorumluluğu alıp onay
