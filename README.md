@@ -13,10 +13,11 @@ cd /pardus-gnome-temizleyici
 ```
 chmod +x temizlik.sh
 ```
+
+## Çalıştırma 
 ```
 ./temizlik.sh
 ```
-## Çalıştırma 
 Script çalıştığında gerekli uyarıları yapmaktadır. Sorumluluğu alıp onay vermeniz halinde Pardus Gnome masaüstü ortamı ile ilgili tüm paketler silinecektir.
 
 UYARI: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Script geliştirme aşamasındadır.
