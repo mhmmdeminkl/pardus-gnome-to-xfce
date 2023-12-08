@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Pardus Gnome Temizliği Başlıyor."
 echo -e  "\033[31mUYARI! Bu işlem Geri Alınamaz!\033[0m"
 
 # Function to display the confirmation prompt
-function confirm() {
+confirm() {
     while true; do
         read -p "Devam Etmek İstiyor musunuz? (Evet/Hayır/Çıkış) " yn
         case $yn in
