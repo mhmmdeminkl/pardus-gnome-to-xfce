@@ -5,21 +5,26 @@ Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan
 dosyaları temizlemesine yarayan kod betiği. Script geliştirme aşamasındadır.
 Farklı aksiyonlar eklenmesi planlanmaktadır.
 
-## Kurulum ve Çalıştırma
+## Kurulum
 Kurulum için aşağıdaki komutlarla bu git deposunu kendi cihazınıza klonlamanız
 gerekmektedir.
+
 ```
 git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
 cd pardus-gnome-temizleyici
 ```
+
 Kurulum işlemi artık bitmiştir.
 
+## Çalıştırma
 Şimdi basitçe aşağıdaki komutla çalıştırabilirsiniz.
+
 ```
 sh temizlik.sh
 ```
+
 Script çalıştığında gerekli uyarıları yapmaktadır. Sorumluluğu alıp onay
-vermeniz halinde Pardus Gnome masaüstü ortamı ile ilgili tüm paketler
+vermeniz durumunda Pardus Gnome masaüstü ortamı ile ilgili tüm paketler
 silinecektir.
 
 **UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Script
