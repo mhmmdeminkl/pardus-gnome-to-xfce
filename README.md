@@ -1,6 +1,6 @@
 ![alt text](https://www.opensourcefeed.org/assets/images/logo/gnome-logo.png)
 
-#Pardus Gnome Temizleyici
+# Pardus Gnome Temizleyici
 Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan artık dosyaları temizlemesine yarayan kod betiği. Script geliştirme aşamasındadır. Farklı aksiyonlar eklenmesi planlanmaktadır. 
 
 ## Kurulum
