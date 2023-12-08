@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Pardus Gnome Temizliği Başlıyor."
 echo -e  "\033[31mUYARI! Bu işlem Geri Alınamaz!\033[0m"
