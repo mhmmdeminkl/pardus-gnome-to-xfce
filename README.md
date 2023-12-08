@@ -3,7 +3,7 @@ Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan
 
 ## Kurulum
 ```
-git clone https://github.com/mhmmdeminkl/pardusgnometemizleyici.git
+git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
 ```
 ```
 cd /pardusgnometemizleyici
