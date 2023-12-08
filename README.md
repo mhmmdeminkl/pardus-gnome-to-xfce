@@ -14,7 +14,7 @@ git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
 cd pardus-gnome-temizleyici
 ```
 
-Kurulum işlemi artık bitmiştir.
+Kurulum işlemi bitmiştir.
 
 ## Çalıştırma
 Şimdi basitçe aşağıdaki komutla çalıştırabilirsiniz.
