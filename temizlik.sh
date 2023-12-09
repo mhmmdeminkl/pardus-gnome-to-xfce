@@ -28,6 +28,7 @@ fi
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
+sudo chvt 1
 sudo apt-get -y install pardus-xfce-desktop
 sudo dpkg-reconfigure lightdm
 sudo apt-get -y purge pardus-gnome-*
