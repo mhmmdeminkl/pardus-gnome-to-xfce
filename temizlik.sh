@@ -3,7 +3,7 @@
 echo "Pardus Gnome Temizliği Başlıyor."
 echo -e  "\033[31mUYARI! Bu işlem Geri Alınamaz!\033[0m"
 
-# Function to display the confirmation prompt
+# Kullanıcı onayı istenilmektedir.
 confirm() {
     while true; do
         read -p "Devam Etmek İstiyor musunuz? (Evet/Hayır/Çıkış) " yn
@@ -16,16 +16,15 @@ confirm() {
     done
 }
  
-# Example usage of the confirm function
+# Verilen girdiye göre işlemin devamı veya iptali
 if confirm; then
     echo "İşleme devam ediliyor lütfen bekleyiniz..."
-    # Place your code here to execute when user confirms
 else
     echo "İşlem iptal edildi. Çıkış yapılıyor. Tekrar görüşmek üzere..."
     exit
-    # Place your code here to execute when user denies
 fi
 
+# Güncelleme, XFCE yükleme işlemi ve GNOME arayüzüne dair tüm paketlerin silinmesi
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo chvt 1
