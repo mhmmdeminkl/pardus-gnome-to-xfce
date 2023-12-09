@@ -28,6 +28,8 @@ fi
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
+sudo apt-get -y install pardus-xfce-desktop
+sudo dpkg-reconfigure lightdm
 sudo apt-get -y purge pardus-gnome-*
 sudo apt-get -y purge gnome-desktop3-data
 sudo apt-get -y autoremove
