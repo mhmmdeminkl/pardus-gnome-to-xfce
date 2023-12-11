@@ -1,13 +1,17 @@
 ![alt text](https://www.opensourcefeed.org/assets/images/logo/gnome-logo.png)
 
 # Pardus Gnome Temizleyici
-KODLAR GELİŞTİRME AŞAMASINDADIR. ANA BİLGİSAYARINIZDA DENEMEDEN LÜTFEN SANAL ORTAMLARDA DENEYİNİZ. 
+KODLAR GELİŞTİRME AŞAMASINDADIR.
+
+Scripte GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş için aksiyonlar eklenmektedir. Script henüz test edilmemiştir. Lütfen Vmware Vbox, Kutular uygulaması üzerinden test ediniz. Ana sisteminizde denemeniz çökmelere sebebiyet verebilir.
 
 Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan artık
 dosyaları temizlemesine yarayan kod betiği. Script geliştirme aşamasındadır.
 Farklı aksiyonlar eklenmesi planlanmaktadır.
 
 ## Kurulum
+Öncelikle XFCE arayüzünü yüklerken GNOME arayüzünü silme işlemi gerçekleşeceği için tty1 ekranına geçmeniz gerekmektedir. CTRL+ALT+F7 kombinasyonu ile tty1 ekranına geçerek oluşabilecek arayüz çökmesini önleyebilirsiniz.
+
 Kurulum için aşağıdaki komutlarla bu git deposunu kendi cihazınıza klonlamanız
 gerekmektedir.
 
@@ -26,8 +30,7 @@ bash temizlik.sh
 ```
 
 Script çalıştığında gerekli uyarıları yapmaktadır. Sorumluluğu alıp onay
-vermeniz durumunda Pardus Gnome masaüstü ortamı ile ilgili tüm paketler
-silinecektir.
+vermeniz durumunda Pardus Gnome masaüstü ortamı ile ilgili tüm paketler silinirken XFCE masaüstü ortamı ve Pardus paketleri yeniden yüklenecektir.
 
 **UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Script
 geliştirme aşamasındadır.
