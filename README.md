@@ -12,7 +12,7 @@ Farklı aksiyonlar eklenmesi planlanmaktadır.
 ## Kurulum
 Öncelikle XFCE arayüzünü yüklerken GNOME arayüzünü silme işlemi gerçekleşeceği için tty1 ekranına geçmeniz gerekmektedir. CTRL+ALT+F7 kombinasyonu ile tty1 ekranına geçerek oluşabilecek arayüz çökmesini önleyebilirsiniz.
 
-Kurulum için aşağıdaki komutlarla bu git deposunu kendi cihazınıza klonlamanız
+Kurulum için aşağıdaki komutlarla bu git reposunu kendi cihazınıza klonlamanız
 gerekmektedir.
 
 ```
