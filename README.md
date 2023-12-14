@@ -32,5 +32,5 @@ bash temizlik.sh
 Script çalıştığında gerekli uyarıları yapmaktadır. Sorumluluğu alıp onay
 vermeniz durumunda Pardus Gnome masaüstü ortamı ile ilgili tüm paketler silinirken XFCE masaüstü ortamı ve Pardus paketleri yeniden yüklenecektir.
 
-**UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Script
+**UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilecektir. Script
 geliştirme aşamasındadır.
