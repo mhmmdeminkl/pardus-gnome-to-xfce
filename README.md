@@ -3,7 +3,7 @@
 # Pardus Gnome to XFCE
 KODLAR GELİŞTİRME AŞAMASINDADIR.
 
-Scripte GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş için aksiyonlar eklenmektedir. Script henüz TEST EDİLMEMİŞTİR. Lütfen Vmware Vbox, Kutular uygulaması üzerinden test ediniz. Ana sisteminizde denemeniz çökmelere sebebiyet verebilir.
+Scripte GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş için aksiyonlar eklenmektedir. Script henüz TEST EDİLMEMİŞTİR. Lütfen Vmware, Vbox, Kutular uygulaması üzerinden test ediniz. Ana sisteminizde denemeniz çökmelere sebebiyet verebilir.
 
 Pardus kullanıcılarının farklı masaüstü ortamlarını denemesiyle oluşan artık
 dosyaları temizlemesine yarayan kod betiği. Script geliştirme aşamasındadır.
