@@ -16,8 +16,8 @@ Kurulum için aşağıdaki komutlarla bu git reposunu kendi cihazınıza klonlam
 gerekmektedir.
 
 ```
-git clone https://github.com/mhmmdeminkl/pardus-gnome-temizleyici.git
-cd pardus-GNOME-to-XFCE
+git clone https://github.com/mhmmdeminkl/Pardus-GNOME-to-XFCE.git
+cd Pardus-GNOME-to-XFCE
 ```
 
 Kurulum işlemi bitmiştir.
