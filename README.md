@@ -1,6 +1,6 @@
 ![alt text](https://www.opensourcefeed.org/assets/images/logo/gnome-logo.png)
 
-# Pardus Gnome to XFCE
+# Pardus GNOME to XFCE
 KODLAR GELİŞTİRME AŞAMASINDADIR.
 
 Scripte GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş için aksiyonlar eklenmektedir. Script henüz TEST EDİLMEMİŞTİR. Lütfen Vmware, Vbox, Kutular uygulaması üzerinden test ediniz. Ana sisteminizde denemeniz çökmelere sebebiyet verebilir.
