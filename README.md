@@ -1,6 +1,3 @@
-<img src="Gnome_to_Xfce.jpeg" height="300" weight="600">
-
-
 # Pardus GNOME to XFCE
 KODLAR GELİŞTİRME AŞAMASINDADIR.
 
