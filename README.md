@@ -1,4 +1,4 @@
-![görsel](Gnome to XFCE.jpeg)
+![görsel](Gnome_to_XFCE.jpeg)
 
 # Pardus GNOME to XFCE
 KODLAR GELİŞTİRME AŞAMASINDADIR.
