@@ -1,4 +1,4 @@
-<img src="Gnome_to_Xfce.png" height="500" weight="500">
+<img src="Gnome_to_Xfce.jpeg" height="500" weight="500">
 
 
 # Pardus GNOME to XFCE
