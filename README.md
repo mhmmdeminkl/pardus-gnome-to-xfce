@@ -1,4 +1,4 @@
-![alt text](https://www.opensourcefeed.org/assets/images/logo/gnome-logo.png)
+![görsel](Gnome to XFCE.jpeg)
 
 # Pardus GNOME to XFCE
 KODLAR GELİŞTİRME AŞAMASINDADIR.
