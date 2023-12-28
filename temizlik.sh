@@ -57,5 +57,5 @@ confirm() {
 # Verilen girdiye göre işlemin devamı
 if confirm; then
     echo " Bilgisayarınız yeniden başlatılıyor."
-    reboot
+   sudo reboot now
 fi 
