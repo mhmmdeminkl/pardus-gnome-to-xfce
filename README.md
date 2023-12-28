@@ -22,7 +22,9 @@ Kurulum işlemi bitmiştir.
 bash pgtx.sh
 ```
 
-Script çalıştığında gerekli uyarıları yapmaktadır.
+Script çalıştığında gerekli uyarıları yapmaktadır. 
+
+**Script iki defa lightdm ve gdm3 seçme ekranına yönlendirme yapmaktadır. Her iki ekranda da Lightdm seçeneğini seçmelisiniz.**
 
 **Sorumluluk Reddi**: Script çalıştığında oluşabilecek her türlü sorunun sorumluluğu size aittir. Yaşadığınız sorunlarla ilgili Pardus Forumlar üzerinden açmış olduğum [Gnome'dan Xfce'ye geçiş rehberi](https://forum.pardus.org.tr/t/pardus-23-gnomedan-xfcee-gecme-rehber/25018) ne yorum yaparak sorununuza çözüm bulmayı deneyebilirsiniz.
 
