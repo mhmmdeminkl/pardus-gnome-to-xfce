@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Pardus Greeter
+Exec=pardus-xfce-greeter
+Icon=pardus-xfce-greeter
+Comment=<Pardus'u birkaç tıklama ile özelleştirin.>
+X-Autostart-enabled=true
+
+# Bu dosya GNOME arayüzünden Xfce arayüzüne geçenlerin özelleştirme yapabilmeleri için XFCEW arayüzü ile otomatik başlatılmak üzere eklenmiştir.
