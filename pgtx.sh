@@ -55,7 +55,6 @@ confirm() {
 }
 
 # Pardus Karşılayıcı için autostart işlemi
-cd pardus-gnome-to-xfce
 cp parduskarşılayıcı.desktop /.config/autostart
  
 # Verilen girdiye göre işlemin devamı
