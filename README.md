@@ -29,3 +29,6 @@ Script çalıştığında gerekli uyarıları yapmaktadır.
 **Sorumluluk Reddi**: Script çalıştığında oluşabilecek her türlü sorunun sorumluluğu size aittir. Yaşadığınız sorunlarla ilgili Pardus Forumlar üzerinden açmış olduğum [Gnome'dan Xfce'ye geçiş rehberi](https://forum.pardus.org.tr/t/pardus-23-gnomedan-xfcee-gecme-rehber/25018) ne yorum yaparak sorununuza çözüm bulmayı deneyebilirsiniz.
 
 **UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Başka sürümlerde denemeniz çökmelere sebebiyet verebilir!
+
+## Katkı Sağlayanlar
+@kurth4cker, @EminFedar ve Pardus Destek Ekibinden Kaan Bey 
