@@ -55,7 +55,7 @@ confirm() {
 }
 
 # Pardus Karşılayıcı için autostart işlemi
-cp parduskarşılayıcı.desktop .config/autostart
+`cp /usr/share/applications/tr.org.pardus.xfce-greeter.desktop ~/.config/autostart/`
  
 # Verilen girdiye göre işlemin devamı
 if confirm; then
