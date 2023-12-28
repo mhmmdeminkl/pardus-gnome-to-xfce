@@ -31,4 +31,4 @@ Script çalıştığında gerekli uyarıları yapmaktadır.
 **UYARI**: Script Pardus 23.0 İşletim Sistemi ile test edilmiştir. Başka sürümlerde denemeniz çökmelere sebebiyet verebilir!
 
 ## Katkı Sağlayanlar
-@kurth4cker, @EminFedar ve Pardus Destek Ekibinden Kaan Bey 
+[KurtH4cker](https://github.com/kurth4cker), [Emin Fedar](https://github.com/eminfedar) ve Pardus Destek Ekibinden [Kaan Bey](https://forum.pardus.org.tr/u/kaan/summary)
