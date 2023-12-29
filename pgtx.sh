@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Pardus Gnome Temizliği Başlıyor."
+echo "Pardus Gnome to Xfce Başlıyor."
 echo -e  "\033[31mUYARI! Bu işlem Geri Alınamaz!\033[0m"
 
 # Kullanıcı onayı istenilmektedir.
