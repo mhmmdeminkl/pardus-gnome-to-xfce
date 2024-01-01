@@ -37,10 +37,10 @@ sudo apt-get -y install pardus-xfce-tweaks
 sudo dpkg-reconfigure lightdm
 sudo apt-get -y purge gdm3
 sudo apt-get -y purge gdm
-sudo apt-get -y install pardus-gnome-desktop
-sudo apt-get -y install pardus-gnome-greeter
-sudo apt-get -y install pardus-gnome-settings
-sudo apt-get -y install pardus-gnome-shortcuts
+sudo apt-get -y purge pardus-gnome-desktop
+sudo apt-get -y purge pardus-gnome-greeter
+sudo apt-get -y purge pardus-gnome-settings
+sudo apt-get -y purge pardus-gnome-shortcuts
 sudo apt-get -y purge gnome-desktop3-data
 # XFCE arayüzünün GNOME arayüzü ile ilgili paketleri kullanma ihtimali bulunduğu için tekrar kullanıldı.
 sudo apt-get -y pardus-xfce-*
