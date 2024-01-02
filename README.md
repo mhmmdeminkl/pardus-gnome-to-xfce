@@ -1,4 +1,5 @@
 # Pardus GNOME to XFCE
+Script Durumu: Test
 
 Pardus kullanıcılarının GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş yapmaya yarayan kod betiği. 
 
