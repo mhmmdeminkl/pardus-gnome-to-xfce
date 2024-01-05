@@ -27,21 +27,93 @@ fi
 # Güncelleme, XFCE yükleme işlemi ve GNOME arayüzüne dair tüm paketlerin silinmesi
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get -y install pardus-xfce-desktop
-sudo apt-get -y install pardus-xfce-greeter
-sudo apt-get -y install pardus-xfce-gtk-theme
-sudo apt-get -y install pardus-xfce-icon-theme
-sudo apt-get -y install pardus-xfce-live-settings
-sudo apt-get -y install pardus-xfce-settings
-sudo apt-get -y install pardus-xfce-tweaks
+
+paket_yükle() {
+  apt-get install "$1" -yq
+}
+
+paket_yükle 
+lightdm
+xfwm4
+xfdesktop4-data
+xfdesktop4
+xfconf
+xfce4-xkb-plugin
+xfce4-whiskermenu-plugin
+xfce4-weather-plugin
+xfce4-wavelan-plugin
+xfce4-verve-plugin
+xfce4-timer-plugin
+xfce4-terminal
+xfce4-taskmanager
+xfce4-systemload-plugin
+xfce4-smartbookmark-plugin
+xfce4-settings
+xfce4-session
+xfce4-sensors-plugin
+xfce4-screenshooter
+xfce4-pulseaudio-plugin
+xfce4-power-manager-plugins
+xfce4-power-manager-data
+xfce4-power-manager
+xfce4-places-plugin
+xfce4-panel
+xfce4-notifyd
+xfce4-netload-plugin
+xfce4-mailwatch-plugin
+xfce4-helpers
+xfce4-goodies
+xfce4-genmon-plugin
+xfce4-fsguard-plugin
+xfce4-diskperf-plugin
+xfce4-dict
+xfce4-cpugraph-plugin
+xfce4-cpufreq-plugin
+xfce4-clipman-plugin
+xfce4-clipman
+xfce4-battery-plugin
+xfce4-appfinder
+xfce4
+xfburn
+thunar
+ristretto
+policykit-1-gnome
+mousepad
+libxfconf-0-3
+libxfce4util7
+libxfce4util-common
+libxfce4util-bin
+libxfce4ui-utils
+libxfce4ui-common
+libxfce4ui-2-0
+libxfce4panel-2.0-4
+libgarcon-gtk3-1-0
+libgarcon-1-0
+libexo-2-0
+gir1.2-xfconf-0
+pardus-xfce-desktop
+pardus-xfce-greeter
+pardus-xfce-gtk-theme
+pardus-xfce-icon-theme
+pardus-xfce-live-settings
+pardus-xfce-settings
+pardus-xfce-tweaks
+# Giriş ekranı sçimi
 sudo dpkg-reconfigure lightdm
-sudo apt-get -y purge gdm3
-sudo apt-get -y purge gdm
-sudo apt-get -y purge pardus-gnome-desktop
-sudo apt-get -y purge pardus-gnome-greeter
-sudo apt-get -y purge pardus-gnome-settings
-sudo apt-get -y purge pardus-gnome-shortcuts
-sudo apt-get -y purge gnome-desktop3-data
+# Gnome paketlerinin silinmesi
+paket_sil() {
+  apt-get purge "$1" -yq
+}
+
+paket_sil
+gdm3
+gdm
+*gnome*
+pardus-gnome-desktop
+pardus-gnome-greeter
+pardus-gnome-settings
+pardus-gnome-shortcuts
+gnome-desktop3-data
 # XFCE arayüzünün GNOME arayüzü ile ilgili paketleri kullanma ihtimali bulunduğu için tekrar kullanıldı.
 sudo apt-get -y pardus-xfce-*
 sudo apt-get -y autoremove
