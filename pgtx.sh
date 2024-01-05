@@ -32,7 +32,7 @@ paket_yükle() {
   apt-get install "$1" -yq
 }
 
-paket_yükle 
+paket_yükle;
 lightdm
 xfwm4
 xfdesktop4-data
@@ -105,7 +105,7 @@ paket_sil() {
   apt-get purge "$1" -yq
 }
 
-paket_sil
+paket_sil;
 gdm3
 gdm
 *gnome*
