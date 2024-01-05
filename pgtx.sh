@@ -29,7 +29,7 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 
 paket_yükle() {
-  apt-get install "$1" -yq
+  apt-get install "$1" -y
 }
 
 paket_yükle "lightdm
@@ -101,7 +101,7 @@ pardus-xfce-tweaks"
 sudo dpkg-reconfigure lightdm
 # Gnome paketlerinin silinmesi
 paket_sil() {
-  apt-get purge "$1" -yq
+  apt-get purge "$1" -y
 }
 
 paket_sil "gdm3
