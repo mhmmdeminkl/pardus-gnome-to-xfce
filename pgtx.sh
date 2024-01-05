@@ -32,8 +32,7 @@ paket_yükle() {
   apt-get install "$1" -yq
 }
 
-paket_yükle
-"lightdm
+paket_yükle "lightdm
 xfwm4
 xfdesktop4-data
 xfdesktop4
@@ -105,8 +104,7 @@ paket_sil() {
   apt-get purge "$1" -yq
 }
 
-paket_sil;
-"gdm3
+paket_sil "gdm3
 gdm
 *gnome*
 pardus-gnome-desktop
