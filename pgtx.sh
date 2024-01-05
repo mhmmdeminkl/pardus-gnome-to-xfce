@@ -32,8 +32,8 @@ paket_yükle() {
   apt-get install "$1" -yq
 }
 
-paket_yükle;
-lightdm
+paket_yükle
+"lightdm
 xfwm4
 xfdesktop4-data
 xfdesktop4
@@ -97,7 +97,7 @@ pardus-xfce-gtk-theme
 pardus-xfce-icon-theme
 pardus-xfce-live-settings
 pardus-xfce-settings
-pardus-xfce-tweaks
+pardus-xfce-tweaks"
 # Giriş ekranı sçimi
 sudo dpkg-reconfigure lightdm
 # Gnome paketlerinin silinmesi
@@ -106,13 +106,13 @@ paket_sil() {
 }
 
 paket_sil;
-gdm3
+"gdm3
 gdm
 *gnome*
 pardus-gnome-desktop
 pardus-gnome-greeter
 pardus-gnome-settings
-pardus-gnome-shortcuts
+pardus-gnome-shortcuts"
 gnome-desktop3-data
 # XFCE arayüzünün GNOME arayüzü ile ilgili paketleri kullanma ihtimali bulunduğu için tekrar kullanıldı.
 sudo apt-get -y pardus-xfce-*
