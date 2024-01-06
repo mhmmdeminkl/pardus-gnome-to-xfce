@@ -101,7 +101,6 @@ sudo dpkg-reconfigure lightdm
 # Gnome paketlerinin silinmesi
 sudo apt-get -y purge gdm3
 sudo apt-get -y purge gdm
-sudo apt-get -y purge *gnome*
 sudo apt-get -y purge pardus-gnome-desktop
 sudo apt-get -y purge pardus-gnome-greeter
 sudo apt-get -y purge pardus-gnome-settings
