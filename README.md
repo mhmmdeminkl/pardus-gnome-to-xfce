@@ -1,4 +1,7 @@
 # Pardus GNOME to XFCE
+
+08.02.2024 ÇALIŞMALAR DEVAM ETMEKTEDİR!
+
 Script Sürümü: TEST
 
 Pardus kullanıcılarının GNOME masaüstü ortamından XFCE masaüstü ortamına geçiş yapmaya yarayan kod betiği. 
